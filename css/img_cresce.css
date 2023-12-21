@@ -1,0 +1,19 @@
+.scaling-container {
+  position: relative;
+  width: 515px; /* Largura inicial da imagem */
+  height: 458px; /* Altura inicial da imagem */
+  overflow: hidden; /* Garante que a imagem não ultrapasse os limites do contêiner */
+  animation: scaleImage 2s ease-in-out infinite; /* Duração da animação: 5 segundos */
+}
+
+.img-cresce {
+  width: 100%; /* Garante que a imagem ocupe 100% do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+@keyframes scaleImage {
+  to {
+    width: 415px; /* Largura final desejada */
+    height: 358px; /* Altura final desejada */
+  }
+}

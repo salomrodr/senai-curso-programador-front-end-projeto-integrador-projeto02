@@ -1,0 +1,31 @@
+.corpo {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-color: #ecf5e5;
+  }
+  
+  .carousel-container {
+    width: 60%; /* Largura do carousel, ajuste conforme necessário */
+    overflow: hidden;
+    border-radius: 25px;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 2s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%; /* Cada slide ocupa pelo menos 100% da largura do carousel */
+    box-sizing: border-box;
+  }
+  
+  .img-carousel {
+    width: 100%; /* A imagem ocupa 100% da largura do slide */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços adicionais abaixo da imagem */
+  }

@@ -1,0 +1,366 @@
+/* ************ */
+/* Início: body */
+/* ************ */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Verdana, Tahoma, sans-serif;
+}
+
+/* ********* */
+/* Fim: body */
+/* ********* */
+
+/* ************** */
+/* Início: header */
+/* ************** */
+
+.header-div-barra {
+    padding: 0.5rem;
+    background-color: #437f39;    
+}
+
+ header p {
+    text-indent: 42px;
+    text-align: justify;
+}
+
+.header-div-01 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #465138; 
+}
+        .header-div-01-box-01 {
+            position: relative;
+            width: 40%;
+            height: 300px;
+            margin: 0;
+            padding: 0;
+            background-color: #ecf5e5;
+            color: #465138;  
+        }
+                .header-div-01-box-01-interna {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    padding: 0;
+                    background-color: #ecf5e5;
+                    color: #465138; 
+                }
+        .header-div-01-box-02 {
+            position: relative;
+            width: 60%;
+            margin: 0;
+            padding: 0;
+            background-color: #ecf5e5;
+            color: #465138;
+            text-align: left;   
+        }
+                .header-div-01-box-02-interna {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    padding: 0;
+                    width: 80%;
+                    background-color: #ecf5e5;
+                    color: #465138; 
+                }
+
+/* *********** */
+/* Fim: header */
+/* *********** */
+
+/* *********** */
+/* Início: nav */
+/* *********** */
+
+.nav-div-01 {
+    margin: 0;
+    padding: 1rem;
+    background-color: #437f39;
+    color: #ffffff;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;   
+    justify-content: center;
+}
+        nav li {
+            margin: 0 60px; /* Espaçamento entre os itens do menu */
+        }
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+  }
+          nav a:hover {
+            text-decoration: none;
+        }
+                  nav a:hover::before {
+                    content: "";
+                    position: absolute;
+                    bottom: -5px; /* Ajuste conforme necessário para o espaçamento do sublinhado */
+                    left: 0;
+                    width: 100%;
+                    height: 3px; /* Altura do sublinhado */
+                    border-radius: 5px;
+                    background: linear-gradient(to right, #ffffff, transparent);
+                    }
+
+/* ******** */
+/* Fim: nav */
+/* ******** */
+
+/* ************ */
+/* Início: main */
+/* ************ */
+
+main p {
+    text-indent: 42px;
+    text-align: justify;
+    color: #465138;
+}
+
+main ul {
+    color: #465138;
+}
+
+main li {
+    margin-bottom: 10px;
+    text-align: justify;
+    color: #465138;
+}
+
+/* Início: div 01 */
+
+.main-div-01 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf5e5;
+}
+        .main-div-01-box-01 {
+            position: relative;
+            width: 50%;
+            margin: 0;
+            padding: 0;
+            background-color: #ecf5e5;
+            color: #465138;
+            text-align: left;   
+        }
+                .main-div-01-box-01-interna {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    padding: 0;
+                    width: 80%;
+                    background-color: #ecf5e5;
+                    color: #465138; 
+                }
+        .main-div-01-box-02 {
+            position: relative;
+            width: 50%;
+            height: 650px;
+            margin: 0;
+            padding: 0;
+            background-color: #ecf5e5;
+            color: #465138;  
+        }
+                .main-div-01-box-02-interna {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    padding: 0;
+                    background-color: #ecf5e5;
+                    color: #465138; 
+                }
+
+/* Fim: div 01 */
+
+/* Início: div 02 */
+
+.main-div-02 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf5e5;
+}
+        .main-div-02-box-01 {
+            position: relative;
+            width: 40%;
+            height: 950px;
+            margin: 0;
+            padding: 0;
+            background-color: #ecf5e5;
+            color: #465138;  
+        }
+                .main-div-02-box-01-interna {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    padding: 0 0 0 3rem;
+                    background-color: #ecf5e5;
+                    color: #465138; 
+                }
+        .main-div-02-box-02 {
+            position: relative;
+            width: 60%;
+            margin: 0;
+            padding: 0;
+            background-color: #ecf5e5;
+            color: #465138;
+            text-align: left;   
+        }
+                .main-div-02-box-02-interna {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    padding: 0 2rem 0 0;
+                    width: 80%;
+                    background-color: #ecf5e5;
+                    color: #465138; 
+                }
+
+/* Fim: div 02 */
+
+/* Início: div 03 */
+
+.main-div-03 {
+    margin: 0;
+    padding: 1rem 8rem 3rem 8rem;
+    background-color: #ecf5e5;
+    color: #465138; 
+}
+
+/* Fim: div 03 */
+
+/* Início: div 04 - Carousel de Imagens
+
+    Código CSS no arquivo: "carousel_img.css"
+
+    Fim: div 04 - Carousel de Imagens
+
+*/
+
+/* Início: div 05 */
+
+.main-div-05 {
+    display: flex;
+    margin: 0;
+    padding: 3rem 0 0 1rem;
+    background-color: #ecf5e5;
+}
+        .main-div-05-box-01 {
+            position: relative;
+            width: 60%;
+            margin: 0;
+            padding: 0;
+            background-color: #ecf5e5;
+            color: #465138;
+            text-align: left;   
+        }
+                .main-div-05-box-01-interna {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    padding: 0;
+                    width: 80%;
+                    background-color: #ecf5e5;
+                    color: #465138; 
+                }
+        .main-div-05-box-02 {
+            position: relative;
+            width: 40%;
+            height: 300px;
+            margin: 0;
+            padding: 0;
+            background-color: #ecf5e5;
+            color: #465138;  
+        }
+                .main-div-05-box-02-interna {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    padding: 0;
+                    background-color: #ecf5e5;
+                    color: #465138; 
+                }
+
+/* Fim: div 05 */
+
+/* ********* */
+/* Fim: main */
+/* ********* */
+
+/* ************** */
+/* Início: footer */
+/* ************** */
+
+footer a {
+    text-decoration: none;
+    color: #465138;
+}
+
+.footer-div-barra {
+    padding: 0.1rem;
+    background-color: #437f39;    
+}
+
+.footer-div-01 {
+    display: flex;
+    margin: 0;
+    padding: 1rem 0 3rem 0;
+    width: 100%;    
+    background-color: #ecf5e5;
+}
+        .footer-div-01-box {
+            position: relative;
+            flex: 1;
+            margin: 0;
+            padding: 4rem 0 11rem 0;
+            background-color: #ecf5e5;
+            color: #465138;
+            text-align: right;   
+        }
+                .footer-div-01-box-interna {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    padding: 0;
+                    text-align: left;
+                    background-color: #ecf5e5;
+                }
+
+.footer-div-02 {
+    background-color: #ecf5e5;
+    font-size: 0.8rem;
+    color: #465138;
+    padding: 0.01rem;
+}
+
+.footer-div-03 {
+    background-color: #437f39;
+    font-size: 0.8rem;
+    color: #ffffff;
+    padding: 0.1rem;
+}
+
+/* *********** */
+/* Fim: footer */
+/* *********** */
